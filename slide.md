@@ -215,6 +215,7 @@ await do for @files -> $file {
 * wheneverはSupplyオブジェクトから値を取得するとブロックを実行する
 * emitでsupplyブロックのSupplyオブジェクトへ値を出力
 * reactブロックのwheneverで値を取得
+
 ---
 
 ## Supply 
