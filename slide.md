@@ -85,9 +85,9 @@ $ perl6 foo.pl --a=1 --b=2
 
 ```
 # foo.pl
-sub MAIN(:$foo, :$bar) {
-  say $foo;       # 1
-  say $bar;       # 2
+sub MAIN(:$a, :$b) {
+  say $a;       # 1
+  say $b;       # 2
 }
 ```
 ---
